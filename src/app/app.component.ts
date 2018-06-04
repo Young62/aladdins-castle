@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = "Aladdin's Castle";
+  public games: Array<any>=[
+    {text: 'Space Invaders'},
+    {text: 'Lugoff Legends'},
+    {text: 'Starslinger'}
+  ];
 }
